@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="module_6.css">
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
+    <script src="module_6.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="exercise" id="exercise">
+            <h1 class="exercise__title">Задание 6.6.1</h1>
+            <p class="exercise__text">Палиндром — это слово или выражение, которое читается в обе стороны одинаково.</p>
+            <div class="palindrom">
+                <div class="form">
+                    <form id="palindromForm">                        
+                        <div class="form__text">Введите слово в поле, затем нажмите кнопку "<span class="form__text-accent">Проверить слово</span>"</div>
+                        <div class="form-group">
+                            <label for="palindromInput">Введите слово</label>
+                            <input type="text" id="palindromInput" minlength="3" required>
+                        </div>                
+                        <div class="form__result" id="resultPalindrom"></div>
+                        <button id="submitPalindrom" type="submit" class="submit-btn">Проверить слово</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="exercise" id="exercise">
+            <h1 class="exercise__title">Задание 6.6.2</h1>
+            <p class="exercise__text">Работа с массивами.</p>
+            <p class="exercise__text">Данное задание целиком выполняется в консоли.</p>
+            <div class="array">        
+            </div>
+        </div>
+        <div class="exercise" id="exercise">
+            <h1 class="exercise__title">Задание 6.6.3</h1>
+            <p class="exercise__text">Работа с массивами</p>
+            <p class="exercise__text">Запросите у пользователя любое число. На основании ответа создайте массив и заполните его числами от нуля до введённого числа. Не забудьте привести полученное от пользователя значение к типу number.</p>
+            <div class="countTo">
+                <div class="form">
+                    <form id="countForm">                        
+                        <div class="form__text">Введите число в поле, затем нажмите кнопку "<span class="form__text-accent">Посчитать до числа</span>"</div>
+                        <div class="form-group">
+                            <label for="countInput">Введите число</label>
+                            <input type="text" id="countInput" required>
+                        </div>                
+                        <div class="form__result" id="resultCount"></div>
+                        <button id="submitCount" type="submit" class="submit-btn">Посчитать до ...</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="exercise" id="exercise">
+            <h1 class="exercise__title">Задание 6.6.4</h1>
+            <p class="exercise__text">Крестики нолики</p>
+            <p class="exercise__text">С помощью цикла нарисуйте в консоли заполненное поле для игры «Крестики-нолики». Выведите результат в консоль.</p>
+            <p class="exercise__text" style="color: aqua;">После ввода числа, в консоли будет выведено "Задание 6.6.4 - затем поле заполненное крестиками и ноликами".</p>
+            <div class="chessboard">
+                <div class="form">
+                    <form id="chessboardForm">                        
+                        <div class="form__text">Введите размер поля, затем нажмите кнопку "<span class="form__text-accent">Нарисовать поле</span>"</div>
+                        <div class="form-group">
+                            <label for="chessboardInput">Введите размер поля</label>
+                            <input type="text" id="chessboardInput" required>
+                        </div>                
+                        <button type="submit" class="submit-btn">Нарисовать поле</button>
+                        <div class="form__result chessboard" id="resultChessboard"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="exercise" id="exercise">
+            <h1 class="exercise__title">Задание 6.6.5</h1>
+            <p class="exercise__text">Работа с объектами.</p>
+            <p class="exercise__text">Данное задание целиком выполняется в консоли.</p>
+            <div class="array">        
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__box">
+            <a href="https://knopchhq.github.io/profile/" class="footer-text">© <span id="currentYear"></span> Alexander — Frontend Developer • Built with ❤️</a>
+        </div>
+    </footer>
+</body>
+</html>
